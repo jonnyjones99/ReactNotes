@@ -1,14 +1,10 @@
 # Back to Basics
 
----
-
 ## References
 
 - [docs](https://react.dev/learn)
 - [js-help](https://javascript.info/import-export#export-default)
 - [design-patterns](https://refactoring.guru/design-patterns/)
-
----
 
 ## Components
 
