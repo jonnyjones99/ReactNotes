@@ -8,8 +8,6 @@
 
 ---
 
----
-
 ## Dictionary
 
 - Operand: reprents the data that is to be operated on or manipulated by some sort of operator.
