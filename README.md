@@ -1,2 +1,2 @@
 # ReactNotes
- Repo containg my react notes and test projects
+ Repo containing my react notes and test projects
