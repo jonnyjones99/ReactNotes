@@ -12,8 +12,9 @@
 
 ## Components
 
-- Components are functions that return markup
-  Example syntax:
+Components are functions that return markup
+
+Example syntax:
 
 ```
 function NavMenu() {
@@ -46,8 +47,8 @@ return(
 
 ### Export Default
 
-- The `export default` keywords specifiy the main component in the file.
-- Allows you to call the function from another file after 'importing'.
+The `export default` keywords specifiy the main component in the file.
+Allows you to call the function from another file after 'importing'.
 
 ```
 file 1:
@@ -80,7 +81,8 @@ return (
 
 ### Conditional Rendering
 
-- There is no special syntax for writing conditions.
+There is no special syntax for writing conditions.
+
 - You can use regular if statements to conditionally render JSX
 - Can use the ternany operator for cleaner code `{isLoggedin ? (<MyAccount />) : (<Login />) };`
-- Can also use logical AND statment ( && ) `
+- Can also use logical AND statment ( && ) `<main>{isLoggedIn && <AdminPanel />}</main>`

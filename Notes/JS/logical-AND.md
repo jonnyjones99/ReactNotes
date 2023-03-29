@@ -37,4 +37,4 @@ console.log(A() && B());
 
 - Helpful if you don't need an else branch
 - In react terms:
-- `<main>{isLoggedIn && <AdminPanel />}</main>
+- `<main>{isLoggedIn && <AdminPanel />}</main>`
