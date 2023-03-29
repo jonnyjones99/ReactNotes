@@ -4,9 +4,9 @@
 
 ## References
 
-[docs]https://react.dev/learn
-[js-help]https://javascript.info/import-export#export-default
-[design-patterns]https://refactoring.guru/design-patterns/
+[docs](https://react.dev/learn)
+[js-help](https://javascript.info/import-export#export-default)
+[design-patterns](https://refactoring.guru/design-patterns/)
 
 ---
 
@@ -77,3 +77,10 @@ return (
 </h1>
 )
 ```
+
+### Conditional Rendering
+
+- There is no special syntax for writing conditions.
+- You can use regular if statements to conditionally render JSX
+- Can use the ternany operator for cleaner code `{isLoggedin ? (<MyAccount />) : (<Login />) };`
+- Can also use logical AND statment ( && ) `
