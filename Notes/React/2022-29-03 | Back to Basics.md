@@ -82,3 +82,17 @@ There is no special syntax for writing conditions.
 - You can use regular if statements to conditionally render JSX
 - Can use the ternany operator for cleaner code `{isLoggedin ? (<MyAccount />) : (<Login />) };`
 - Can also use logical AND statment ( && ) `<main>{isLoggedIn && <AdminPanel />}</main>`
+
+## State
+
+State is useful so that components can remember information
+
+```
+import { useState } from 'react';
+
+function MyButton() {
+  const [count, setCount] = useState(0);
+}
+```
+
+You get two things from state. Current state (`count`) and the function that updates the state (`setCount`)
